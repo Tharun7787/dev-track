@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background: url(backg.jpeg);
+    position: relative;
+}
+li{
+    display: inline;
+}
+body{
+    text-decoration: none;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    padding: 20px 20px ;
+}
+.navbar{
+    color: #ffffff;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 200px;
+    margin-left: 250px;
+    border: 20px;
+    display: flex;
+    
+}
+.navbar a {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.login{
+    margin-left: 200px;
+}
+.getstarted{
+    margin-left: 40px;
+  
+}
+.getstarted {
+    font-family: 'Kanit', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+    color: #ffffff;
+    transition: all 0.5s;
+    position: relative;
+    
+  }
+  .getstarted::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+  }
+  .getstarted::before {
+    opacity: 1 ;
+    transform: scale(1,1);
+  }
+  .getstarted::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 2px solid rgba(300, 300, 300, 300);
+    transform: scale(1.2,1.2);
+  }
+  .getstarted:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+.container{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+}
+.item{
+    width:50%;
+    margin:10px;
+    padding:3px;
+    padding-top: 70px;
+}
+#item-1{
+font-size: 70px;
+
+}
+h1{
+    color:white;
+    font-size: 70px;
+}
+
+
+
+/* second div css  */
+
+.second{
+    background-color:white;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom:0px;
+}
+.word1{
+    font-size: 150px;
+    padding-left: 300px;
+    font-weight: 550;
+    color:black;
+    margin: 0;
+}
+
+.word2{
+    font-size: 150px;
+    padding-top: 0px;
+    color:black;
+    padding-left: 500px;
+    font-weight: 550;
+    margin: 0;
+}
+
+.info{
+    background-color:white;
+    padding-left: 100px;
+    padding-bottom:100px;
+}
+
+.newheading1{
+    color: black;
+    
+    padding-bottom: 0px;
+    }
+
+.newheading2{
+    color: black;
+}    
+.para2{
+    color: black;
+}
+.para{
+    padding-top: 20px;
+}
+
+.templatecontainer{
+    background-color: white;
+    position: relative;
+   
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    ;
+}
+
+.list-item{
+    font-size: 60px;
+    font-weight: 300;
+    color: black;
+}
+
+.tlink{
+padding-left: 100px;
+margin-top: 50px;
+padding-bottom: 100px;
+}
+
+a{
+    font-size: 30px;
+}
+
+
+
+.thirddivh1{
+    color:black
+    
+}
+.three{
+    position: relative;
+    
+}
+
+
+/* new div  */
+
+.image{
+    height: 400px;
+    width: 700px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+}
+
+/* lastdiv css  */
+
+.lastdiv{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 150px;
+    background-color:black;
+    position: relative;
+}
+
+.last{
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.buttons{
+    color:black;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 20px;
+    
+}
+
+
